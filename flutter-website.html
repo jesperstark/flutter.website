@@ -1,0 +1,63 @@
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>flutter demo</title>
+  <link rel="stylesheet" href="css/reveal.min.css">
+  <link rel="stylesheet" href="css/theme/default.css" id="theme">
+
+  <!--theme for code syntax-highlighting-->
+  <link rel="stylesheet" href="lib/css/zenburn.css">
+</head>
+
+<body>
+  <div class="reveal">
+    <div class="slides">
+      <section>
+        <h1>About flutter</h1>
+        <p>see
+          <a href="https://flutter.io/">flutter.io</a>
+        </p>
+      </section>
+    </div>
+  </div>
+
+  <script src="lib/js/head.min.js"></script>
+  <script src="js/reveal.min.js"></script>
+
+  <script>
+    // see: https://github.com/hakimel/reveal.js#configuration
+    Reveal.initialize({
+      history: true,
+      slideNumber: true,
+
+      // see: https://github.com/hakimel/reveal.js#dependencies
+      dependencies: [{
+          src: 'plugin/markdown/marked.js',
+          condition: function () {
+            return !!document.querySelector('[data-markdown]');
+          }
+        },
+        {
+          src: 'plugin/markdown/markdown.js',
+          condition: function () {
+            return !!document.querySelector('[data-markdown]');
+          }
+        },
+        {
+          src: 'plugin/highlight/highlight.js',
+          async: true,
+          callback: function () {
+            hljs.initHighlightingOnLoad();
+          }
+        },
+        {
+          src: 'plugin/notes/notes.js',
+          async: true
+        },
+      ]
+    });
+  </script>
+</body>
+
+</html>
