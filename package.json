@@ -1,0 +1,18 @@
+{
+  "name": "flutter.website",
+  "version": "1.0.0",
+  "description": "",
+  "main": "flutter-website.js",
+  "scripts": {
+    "start": "node flutter-website.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "github.com/jesperstark/flutter.website.git"
+  },
+  "author": "Jesper Stark",
+  "license": "MIT",
+  "dependencies": {
+    "koa": "^2.5.0"
+  }
+}
