@@ -4,7 +4,7 @@
   "description": "",
   "main": "flutter-website.js",
   "scripts": {
-    "start": "node flutter-website.js"
+    "start": "./node_modules/.bin/babel-node flutter-website.js"
   },
   "repository": {
     "type": "git",
@@ -13,7 +13,12 @@
   "author": "Jesper Stark",
   "license": "MIT",
   "dependencies": {
-    "koa": "^2.5.0",
+    "compression": "^1.7.2",
+    "express": "^4.16.3",
+    "hogan-express": "^0.5.2",
+    "hogan.js": "^3.0.2",
+    "morgan": "^1.9.0",
+    "request": "^2.85.0",
     "reveal.js": "^3.6.0"
   },
   "devDependencies": {
